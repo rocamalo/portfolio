@@ -12,6 +12,16 @@ body {
         padding-top: 0;
         padding-left: 17rem;
     }
+
+    
+}
+@media (max-width: 990px) {
+    .no-visible {
+        display: none;
+    }
+}
+.no-visible {
+    
 }
 
 h1,
@@ -210,6 +220,7 @@ a:active {
 /*==================================================
                       ABOUT
 ====================================================*/
+
   #about {
       background-image: url(../img/frontend_webdeveloper.jpg); 
       background-size: cover;
