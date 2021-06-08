@@ -436,7 +436,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
               letters, as opposed to using Content here.</p> -->
           </div>
-          <form method="POST" data-netlify="true">
+          <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="row con-form">
               <div class="col-md-12">
                 <input type="text" name="full-name" placeholder="Full Name" class="form-control">
@@ -448,6 +448,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <input type="text" name="subject" placeholder="Subject" class="form-control">
               </div>
               <div class="col-md-12"><textarea name="message" id=""></textarea></div>
+              <div data-netlify-recaptcha="true"></div>
               <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button" type="submit">Send</button></div> 
           </div>
         </form>
