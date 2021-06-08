@@ -20,8 +20,8 @@ body {
         display: none;
     }
 }
-.no-visible {
-    
+.logo-image{
+    max-width: 80px;
 }
 
 h1,
